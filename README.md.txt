@@ -50,13 +50,13 @@ python src/data_preprocessing.py
 python src/modeling.py
 📈 Results
 Model Performance Comparison
-Model	Precision	Recall	F1-Score	AUC-ROC
-Random Forest	0.95	0.82	0.88	0.98
-XGBoost	0.93	0.85	0.89	0.97
-Logistic Regression	0.89	0.78	0.83	0.96
+Model	               Precision	Recall	F1-Score	AUC-ROC
+Random Forest	         0.95	     0.82	    0.88	   0.98
+XGBoost	               0.93	     0.85	    0.89	   0.97
+Logistic Regression	   0.89	     0.78	    0.83	   0.96
+
 🎯 Key Features
 Data preprocessing and exploratory data analysis
-
 Handling class imbalance using SMOTE
 Multiple machine learning models
 Comprehensive model evaluation
