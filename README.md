@@ -212,29 +212,7 @@ Key Findings
 
 📁 Project Structure
 
-CreditCardFraudDetection/
-│
-├── data/
-│   └── creditcard.csv          # Dataset file
-│
-├── notebooks/
-│   └── CreditCardFraudDetection.ipynb  # Main Jupyter notebook
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py   # Data cleaning and preprocessing
-│   ├── eda.py                 # Exploratory data analysis
-│   ├── modeling.py            # Model training and evaluation
-│   └── utils.py               # Utility functions
-│
-├── results/
-│   ├── models/                # Saved model files
-│   ├── plots/                 # Generated visualizations
-│   └── metrics/               # Performance metrics
-│
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-└── LICENSE                    # Project license
+<img width="647" height="598" alt="image" src="https://github.com/user-attachments/assets/ed26bf78-fb63-4c43-90d3-1105f8104cc4" />
 
 🤝 Contributing
 
