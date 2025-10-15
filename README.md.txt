@@ -25,6 +25,7 @@ cd CreditCardFraudDetection
 
 # Install dependencies
 pip install -r requirements.txt
+
 📁 Project Structure
 text
 CreditCardFraudDetection/
@@ -48,6 +49,7 @@ Or execute the Python scripts:
 bash
 python src/data_preprocessing.py
 python src/modeling.py
+
 📈 Results
 Model Performance Comparison
 Model	               Precision	Recall	F1-Score	AUC-ROC
