@@ -3,6 +3,7 @@
 A comprehensive machine learning project for detecting fraudulent credit card transactions using various classification algorithms and advanced techniques to handle highly imbalanced data.
 
 📋 Table of Contents
+
 Project Overview
 
 Dataset
@@ -21,9 +22,8 @@ Project Structure
 
 Contributing
 
-License
-
 🎯 Project Overview
+
 This project implements a machine learning solution for credit card fraud detection, addressing the critical challenge of identifying fraudulent transactions in highly imbalanced datasets. The system employs various data preprocessing techniques, multiple machine learning algorithms, and comprehensive evaluation metrics to achieve optimal fraud detection performance.
 
 Key Highlights:
@@ -39,19 +39,18 @@ Key Highlights:
 🚀 Production-ready pipeline implementation
 
 📊 Dataset
-Source
+
+Source : 
+
 The project uses the popular Credit Card Fraud Detection dataset from Kaggle, containing transactions made by European cardholders in September 2013.
 
 Dataset Characteristics
 
-Attribute	Value
-Total Transactions	284,807
-Fraudulent Transactions	492 (0.172%)
-Legitimate Transactions	284,315 (99.828%)
-Features	31 (Time, Amount, V1-V28 PCA components, Class)
-Class Imbalance Ratio	1:578
+<img width="857" height="292" alt="image" src="https://github.com/user-attachments/assets/5607fd9e-0680-4318-908c-dcd70bba9d03" />
+
 
 Features Description
+
 V1-V28: Principal components obtained from PCA transformation (anonymized for privacy)
 
 Time: Seconds elapsed between each transaction and the first transaction
@@ -90,17 +89,20 @@ Python 3.8 or higher
 pip (Python package manager)
 
 Step-by-Step Installation
+
 1. Clone the Repository
    
-   git clone https://github.com/yourusername/CreditCardFraudDetection.git
+   git clone https://github.com/Indhu375/CreditCardFraudDetection.git
+   
    cd CreditCardFraudDetection\
    
-2. Create Virtual Environment
+3. Create Virtual Environment
    
    python -m venv fraudenv
+   
    source fraudenv/bin/activate  # On Windows: fraudenv\Scripts\activate
    
-3. Install Dependencies
+5. Install Dependencies
    
    pip install -r requirements.txt
 
@@ -109,12 +111,19 @@ Required Packages
 The requirements.txt includes:
 
 pandas>=1.3.0
+
 numpy>=1.21.0
+
 scikit-learn>=1.0.0
+
 matplotlib>=3.5.0
+
 seaborn>=0.11.0
+
 imbalanced-learn>=0.9.0
+
 xgboost>=1.5.0
+
 jupyter>=1.0.0
 
 💻 Usage
@@ -193,14 +202,7 @@ Metrics Used:
 
 Performance Comparison
 
-
-Model	                                                Precision	                    Recall	                                F1-Score	                                          AUC-ROC
-
-Random Forest                	                          0.95	                      0.82	                                  0.88	                                              0.98
-
-XGBoost	                                                0.93	                      0.85	                                  0.89	                                              0.97
-
-Logistic Regression          	                          0.89	                      0.78	                                  0.83	                                              0.96
+<img width="1728" height="228" alt="image" src="https://github.com/user-attachments/assets/69d88d66-7791-403a-a448-adbfeee3649c" />
 
 Key Findings
 
